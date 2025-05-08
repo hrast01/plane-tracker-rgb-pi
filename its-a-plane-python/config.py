@@ -1,8 +1,8 @@
 ZONE_HOME = {
-    "tl_y": xx.xxxxxx, # Top-Left Latitude (deg) https://www.latlong.net/ or google maps. The bigger the zone, the more planes you'll get. My zone is ~3.5 miles in each direction or 10mi corner to corner. 
-    "tl_x": xx.xxxxxx, # Top-Left Longitude (deg)
-    "br_y": xx.xxxxxx, # Bottom-Right Latitude (deg)
-    "br_x": xx.xxxxxx # Bottom-Right Longitude (deg)
+    "tl_y": xx.xxxxxx, # Bounding Box: northlimit, Top-Left Latitude (deg) https://www.latlong.net/ or google maps. The bigger the zone, the more planes you'll get. My zone is ~3.5 miles in each direction or 10mi corner to corner. 
+    "tl_x": xx.xxxxxx, # Bounding Box: westlimit, Top-Left Longitude (deg)
+    "br_y": xx.xxxxxx, # Bounding Box: southlimit Bottom-Right Latitude (deg)
+    "br_x": xx.xxxxxx # Bounding Box: eastlimit, Bottom-Right Longitude (deg)
 }
 LOCATION_HOME = [
     xx.xxxxxx, # Latitude (deg)
